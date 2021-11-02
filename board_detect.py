@@ -5,9 +5,9 @@ from pynput import keyboard
 from PIL import ImageGrab
 
 start_time = time.time()
-cropped_board_path = r"C:\Users\Amir\Desktop\Training\Board_Detect\output.png"
-screenshot_path = r"C:\Users\Amir\Desktop\Training\Board_Detect\temp.png"
-classifcation_pieces_output_path = r"C:\Users\Amir\Desktop\Training\Board_Detect\Pieces\test"
+cropped_board_path = r"<Some path for the cropped board output image>"
+screenshot_path = r"<Some path for the screenshot image>"
+classifcation_pieces_output_path = r"<Some path for the output of the pieces images>"
 
 
 def get_board(image_path):
